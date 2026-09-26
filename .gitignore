@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+.vapid.json
+.DS_Store
+tsconfig.tsbuildinfo
+.claude
