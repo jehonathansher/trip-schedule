@@ -1,0 +1,28 @@
+{
+  "name": "trip-schedule",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8000 --strictPort",
+    "build": "tsc -b && vite build && node scripts/inject-sw-assets.mjs",
+    "deploy": "npm run build && gh-pages -d dist --nojekyll"
+  },
+  "dependencies": {
+    "@fontsource/frank-ruhl-libre": "^5.3.0",
+    "@fontsource/rubik": "^5.3.0",
+    "firebase": "^12.19.0",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "web-push": "^3.6.7"
+  }
+}
