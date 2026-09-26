@@ -3,8 +3,8 @@
  * The two constants below are rewritten on every build by
  * scripts/inject-sw-assets.mjs — keep them exactly as they are.
  */
-const CACHE = 'schedule-6234e4ba'
-const ASSETS = ["./assets/index-DcWS1L9e.js","./assets/index-Dli_nBa2.css"]
+const CACHE = 'schedule-ecc1c18e'
+const ASSETS = ["./assets/index-DWT_TmXv.js","./assets/index-Dli_nBa2.css"]
 
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-180.png', './icons/icon-192.png', ...ASSETS]
 
